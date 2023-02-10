@@ -1,3 +1,4 @@
+import './ImageList.css';
 import Image from './Image';
 
 const ImageList = ({ images }) => {
@@ -6,7 +7,7 @@ const ImageList = ({ images }) => {
     return <Image key={image.id} image={image} />;
   });
 
-  return <div>{renderedImages}</div>;
+  return <div className="imageList">{renderedImages}</div>;
 };
 
 export default ImageList;

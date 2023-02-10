@@ -1,3 +1,5 @@
+import './Image.css';
+
 const Image = ({ image }) => {
   return (
     <div>
